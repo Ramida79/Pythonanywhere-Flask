@@ -7,5 +7,7 @@ Lern about database on [www.w3schools.com](https://www.w3schools.com/sql/sql_ref
 <br>
 ![Database](temperatura.png)
 
+Implementacja bazy danych na serwerze pythonanywhere.com - [link do filmu](https://youtu.be/zT6RseVw6kE)
+
 Go to sample [Flask app](sample.py)
 
