@@ -3,3 +3,4 @@ Development of an example of a simple platform for the Internet of Things on the
 
 
 Sample Flask app - sample.py
+[a relative link](sample.py)
