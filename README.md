@@ -7,4 +7,4 @@ Lern about database on [www.w3schools.com](https://www.w3schools.com/sql/sql_ref
 <br>
 ![Database](temperatura.png)
 
-[Sample Flask app](sample.py)
+Go to sample [Flask app](sample.py)
