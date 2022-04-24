@@ -8,3 +8,4 @@ Lern about database on [www.w3schools.com](https://www.w3schools.com/sql/sql_ref
 ![Database](temperatura.png)
 
 Go to sample [Flask app](sample.py)
+
