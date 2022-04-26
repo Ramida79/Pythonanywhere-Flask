@@ -12,7 +12,7 @@ In order to achieve the expected goal, please follow the steps below.
 
 1. Design a database in [DBdiagram.io](https://dbdiagram.io/). A short introduction to databases - [video instructions](https://youtu.be/qvWkGwYGTCI).
 2. Implement database on the pythonanywhere.com server - [video instructions](https://youtu.be/ZHnFKL7hrIg)
-3. Installing a virtual environment in bash [link](https://youtube.com) [file with instructions](/files/basch.txt)
+3. Installing a virtual environment in bash [link](https://youtube.com) file with [instructions](files/basch.txt)
 4. REST API development
 5. comming soon
 
