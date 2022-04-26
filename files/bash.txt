@@ -1,0 +1,4 @@
+pip3.8 install flask-sqlalchemy
+pip3.8 install flask-marshmallow
+pip3.8 install marshmallow-sqlalchemy
+pip3.8 install mysql-connector-python-rf
