@@ -1,0 +1,31 @@
+<html>
+    <head>
+  <!--css-->
+         <link rel="stylesheet" type="text/css" href="/css/main.css" media= "screen, projection">
+
+        {% if title %}
+        <title>{{ title }} - Users</title>
+        {% endif %}
+
+    </head>
+    <body>
+        <div >LISTA </div>
+        <hr>
+        {% block content %}{% endblock %}
+
+        <table>
+        <tbody>
+            <tr><p><th>Id</th><th>NAZWISKO I IMIE </th> <th><b>Data</th><th><b>Kod </th></b></p></tr>
+            {% for user in users %}
+                <tr>
+                    <p><th>{{user.id}}</th><td>{{user.full_name}}</td> <td><b>{{ user.created_at }}</b></td><td><b>{{user.country_code}}</b></td></p>
+                </tr>
+            {% endfor %}
+        </tbody>
+        </table>
+
+
+
+
+    </body>
+</html>
