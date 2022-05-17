@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+   <body>
+      <h2 style = "text-align: center;">Dodaj USER</h2>
+
+     {% with messages = get_flashed_messages() %}
+     {% if messages %}
+     <ul class=flashes>
+     {% for message in messages %}
+     <li>{{ message }}</li>
+     {% endfor %}
+     </ul>
+    {% endif %}
+        {% endwith %}
+
+      <form action = "/strona/dodaj" method = post>
+         <fieldset>
+            <legend>Dodaj Użytkownika</legend>
+            {{ form.hidden_tag() }}
+
+            <div style = font-size:20px; font-weight:bold; margin-left:350px;>
+
+               {{ form.data_nasza.label }}
+               {{ form.data_nasza }}
+               <br><br>
+
+
+               {{ form.nazwisko.label }}
+               {{ form.nazwisko }}
+               <br><br>
+
+               {{ form.kraj.label }}<br>
+               {{ form.kraj }}
+               <br>
+
+               <br>
+               {{ form.wyslij }}
+            </div>
+
+         </fieldset>
+      </form>
+
+
+
+
+   </body>
+</html>
