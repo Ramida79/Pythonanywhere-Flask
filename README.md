@@ -14,7 +14,7 @@ In order to achieve the expected goal, please follow the steps below.
 2. Implement database on the pythonanywhere.com server - [video instructions](https://youtu.be/ZHnFKL7hrIg)
 3. Settings for FLASK on pythonanywhere.com - [video instructions](https://youtu.be/w41CO6lA4Ew)
 4. Installing a virtual environment in bash - [video instructions](https://youtu.be/Qsb1i3IultU) file with [instructions](files/bash.txt) <h3>Please check your python version and enter the correction after pipX.Y where X.Y is your a python version. For example, pip3.8</h3>
-6. REST API development
+6. REST API development - begin with [Miguel tutorial :)](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
 7. comming soon
 
 Go to sample [Flask app](sample.py)
