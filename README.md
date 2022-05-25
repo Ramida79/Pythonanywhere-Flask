@@ -17,7 +17,11 @@ In order to achieve the expected goal, please follow the steps below.
 6. REST API development - begin with [Miguel's tutorial :)](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
 7. After carefully reading Miguel's tutorial, see what I have [prepared for you - video instructions](https://youtu.be/X6Hgl1OL23I)
 8. Website rendering with REST API - [video instructions](https://youtu.be/6HtOqcX7Vew)
-
+9. Instalation of WTForms in virtualenv
+   pip3.8 install WTForms==2.3.3
+   pip3.8 install flask-wtf
+   pip3.8 install wtforms    
+   After that reload your webpage
 Go to sample [Flask app](sample.py)
 
 
