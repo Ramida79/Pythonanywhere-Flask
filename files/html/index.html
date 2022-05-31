@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <!--css-->
+         <link rel="stylesheet" type="text/css" href="/css/main.css" media= "screen, projection">
+
+<style>
+            img.one {
+  vertical-align:middle;
+  width: 20%;
+  height: auto;
+}
+
+
+
+</style>
+
+        {% if title %}
+        <title>{{ title }} - Pacjenci</title>
+        {% endif %}
+         <!-- add icon link -->
+  <link rel = "icon" href = "/img/ortoi.png"    type = "image/x-icon">
+
+
+
+    </head>
+    <body>
+
+        <a href="/adduser" class="myButton2">Pacjent</a>
+        <a href="/adduser" class="myButton2">Device</a>
+        <a href="/addnail" class="myButton2">Mes</a>
+
+        <hr>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
