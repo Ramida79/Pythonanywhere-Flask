@@ -1,0 +1,50 @@
+<!doctype html>
+{% extends "index.html" %}
+{% block content %}
+<html>
+    <head>
+  <!--css-->
+         <link rel="stylesheet" type="text/css" href="/css/main.css" media= "screen, projection">
+
+        {% if title %}
+        <title>{{ title }} - Users</title>
+        {% endif %}
+
+    </head>
+    <body>
+
+
+ <form action = "/web/device/{{id}}" method = post>
+ {{ form.send }}
+ <h1>Light is {% if przycisk == 1 %} ON {%else%} OFF{%endif%}</h1>
+ </form>
+
+
+
+
+             <table>
+                    <tbody>
+                        <tr><p>
+                            <th>Id</th>
+                            <th>Data </th>
+                            <th><b>Wartosc</th>
+                            <th><b>DEvice_id</th>
+            </p></tr>
+            {% for pomiar in pomiary %}
+                <tr>
+                    <p>
+                        <th>{{pomiar.id}}</th>
+                        <td>{{pomiar.time_stamp}}</td>
+                        <td><b>{{pomiar.value }}</b></td>
+                        <td>{{pomiar.device_id}}</td>
+                    </p>
+                </tr>
+            {% endfor %}
+        </tbody>
+        </table>
+
+
+    </body>
+</html>
+{% endblock %}
+
